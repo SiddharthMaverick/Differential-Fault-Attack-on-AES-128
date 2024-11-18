@@ -1,4 +1,4 @@
-# Differential Fault Analysis (DFA) on AES Project
+# Differential Fault Analysis (DFA) on AES-128 : Dawn of Traditional Encryption
 ## Overview:
 This project demonstrates the use of Differential Fault Analysis (DFA) on the AES (Advanced Encryption Standard) algorithm to perform cryptanalysis by exploiting faults injected into specific rounds of the encryption process. The primary goal is to retrieve key hypotheses by comparing correct ciphertexts with faulty ciphertexts, derived through the application of various DFA techniques. This is done over multiple phases using matrices representing the AES input and corresponding faulty ciphertexts.
 
