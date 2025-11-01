@@ -8,10 +8,11 @@ The project is divided into the following main sections:
 AES Encryption and Faulty Encryption Functions:
 
 Functions for AES encryption and the simulation of faulty encryption by modifying specific rounds are defined.
-DFA Phase 1:
+'''DFA Phase 1''':
 
 Phase 1 of the DFA applies differential relations (delta relations) on the ciphertexts obtained from both the correct and faulty AES encryptions. This is used to narrow down possible key hypotheses for each key column in the AES key schedule.
-DFA Phase 2:
+
+'''DFA Phase 2''':
 
 Phase 2 uses the hypotheses generated in Phase 1 and applies further conditions (e.g., f_1, f_2) to narrow down the subkey guesses. This phase iterates through the hypotheses and refines them by testing the relations with the faulty ciphertexts.
 Key Hypothesis Intersection:
